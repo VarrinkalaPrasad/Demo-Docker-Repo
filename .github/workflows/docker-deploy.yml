@@ -27,7 +27,7 @@ jobs:
         context: ./Model deployment with Docker Live Demo/flaskApi
         file: ./Model deployment with Docker Live Demo/flaskApi/Dockerfile
         push: true
-        tags: tags: docker.io/VarrinkalaPrasad/demo-docker-repo:latest
+        tags: docker.io/VarrinkalaPrasad/demo-docker-repo:latest
 
     - name: Run Docker Container (for test)
       run: |
