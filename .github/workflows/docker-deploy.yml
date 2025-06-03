@@ -24,7 +24,8 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v5
       with:
-        context: Model deployment with Docker Live Demo/flaskApi/Dockerfile
+        context: ./Model deployment with Docker Live Demo/flaskApi
+        file: ./Model deployment with Docker Live Demo/flaskApi/Dockerfile
         push: true
         tags: VarrinkalaPrasad/demo-docker-repo:latest
 
