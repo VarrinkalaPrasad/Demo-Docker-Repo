@@ -29,6 +29,6 @@ jobs:
         push: true
         tags: docker.io/varrinkalaprasad/demo-docker-repo:latest
 
-    - name: Run Docker Container (for test)
-      run: |
-        docker run -d -p 5002:5002 --name demo-app VarrinkalaPrasad/demo-docker-repo:latest
+   # - name: Run Docker Container (for test)
+   #   run: |
+   #     docker run -d -p 5002:5002 --name demo-app VarrinkalaPrasad/demo-docker-repo:latest
